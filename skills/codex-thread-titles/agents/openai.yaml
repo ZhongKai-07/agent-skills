@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 对话命名"
+  short_description: "按创建日期与实际内容规范 Codex 侧栏对话标题，保留项目与侧栏状态"
+  default_prompt: "使用 $codex-thread-titles 整理所有项目下的对话名称，先展示候选表，确认后应用到侧栏。"
