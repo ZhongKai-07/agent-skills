@@ -7,6 +7,11 @@
 | Skill | 用途 |
 | --- | --- |
 | [`codex-thread-titles`](skills/codex-thread-titles/) | 按创建日期、任务类型和实际内容整理 Codex 侧栏对话标题，并在修改前预览、修改后核验。 |
+| [`ncm-cli-setup`](skills/ncm-cli-setup/) | 安装和配置 ncm-cli（网易云音乐 CLI）：安装 CLI、配置 API Key、安装 mpv 播放器、排查安装问题。 |
+| [`netease-music-cli`](skills/netease-music-cli/) | 通过 ncm-cli 操作网易云音乐：搜索、播放、暂停、切歌、调音量、管理队列、播放歌单。 |
+| [`netease-music-assistant`](skills/netease-music-assistant/) | 网易云音乐智能助手：分析红心偏好画像、多关键词搜索与推荐、播放控制、定时推送、创建歌单。 |
+
+三个 `ncm-cli` / `netease-music-*` skill 随 ncm-cli 官方发布（Apache-2.0，各目录内附 `LICENSE.txt`），这里收录的是本机使用的版本，依赖已安装的 `ncm-cli` 和 `mpv`。
 
 ## 安装
 
